@@ -89,7 +89,7 @@ aside {
   display: flex;               /* Center image within the circle */
   align-items: center;
   justify-content: center;
-  border: 2px solid #ccc;      /* Optional border around the circle */
+  border: 2px solid ##38383a;      /* Optional border around the circle */
 }
 
 .circle img {
