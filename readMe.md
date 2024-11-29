@@ -1,9 +1,34 @@
-# Vue Portfolio Project with Dark Mode
-This project is a personal portfolio website built with Vue.js, showcasing web development skills, projects, and contact information. One of the key features of this project is the dark mode toggle, which lets users switch between light and dark themes. This functionality is implemented using Vue's event handling system, making it both dynamic and user-friendly.
+# Random Bible Verse and Quote Generator Frontend
 
-## Technologies
+## Overview
+This is a simple Vue.js frontend application that allows users to fetch a random Bible verse or an inspirational quote by clicking buttons. The application integrates with the backend **Random Bible Verse and Quote API** to display the results dynamically.
 
-1. **Vue.js**: The JavaScript framework used for building the UI.
-2. **CSS3**: Styling and responsive design.
-3. **JavaScript (ES6)**: Used for event handling, dark mode, and other dynamic functionality.
-4. **HTML5**: Structure of the project.
+## Features
+- Fetch and display a **random Bible verse**.
+- Fetch and display a **random inspirational quote**.
+- Responsive design for mobile and desktop devices.
+
+## How to Run
+
+
+## Usage
+
+### Buttons
+- Click **"Generate Random Bible Verse"** to fetch a Bible verse.
+- Click **"Generate Random Quote"** to fetch an inspirational quote.
+
+### API Integration
+- Ensure the backend API is running at `http://localhost:3000`.
+- The frontend communicates with:
+  - `GET /bible-verse/verse` for Bible verses.
+  - `GET /bible-verse/quote` for quotes.
+
+## Technologies Used
+- **HTML5**: For structure.
+- **CSS3**: For styling.
+- **Vue.js**: For interactivity.
+
+## Future Improvements
+- Add error messages for failed API calls.
+- Include loading spinners while fetching data.
+- Expand with additional inspirational content.
