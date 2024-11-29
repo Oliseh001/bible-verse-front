@@ -8,7 +8,10 @@ This is a simple Vue.js frontend application that allows users to fetch a random
 - Fetch and display a **random inspirational quote**.
 - Responsive design for mobile and desktop devices.
 
-## How to Run
+## How to Check Site
+
+[Random Bible & Quote Generator](<https://bible-verse-front-2.onrender.com>)
+
 
 
 ## Usage
